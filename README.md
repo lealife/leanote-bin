@@ -17,3 +17,7 @@
 2. 将之前的`/conf/app.conf`, `/files`, `/public/upload`, `/mongodb_backup`文件夹 拷贝到 新目录的相应位置
 3. 重新运行`/bin/run.sh`
 
+## 注意事项
+* 该仓库下/app目录文件无用, 仅作备份用
+* 二进制文件现只支持64位系统(linux, mac OS X), windows版暂不支持, 欢迎朋友们向我们提交windows二进制版
+* 请勿向该仓库提交代码, 当然欢迎提交与二进制版相关的issue, 打包好的二进制leanote.
