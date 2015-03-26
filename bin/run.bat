@@ -1,12 +1,19 @@
 @echo off
 
-set SCRIPTPATH=%~sdp0
-set path="%SCRIPTPATH%src\github.com\leanote"
+cd..
+set SCRIPTPATH=%cd%
+
+: top src directory
+set path="%SCRIPTPATH%\bin\src\github.com\leanote"
 
 if not exist "%path%" mkdir "%path%"
 
-# set GOPATH
-set GOPATH=%GOPATH%;%SCRIPTPATH%
+: create software link
+if exist "%path%\leanote" del /Q "%path%\leanote"
+mklink  "%path%\leanote"  %SCRIPTPATH%
 
-# run
-"%SCRIPTPATH%/leanote-win64.exe" -importPath github.com/leanote/leanote
+: set GOPATH
+set GOPATH=%GOPATH%;"%SCRIPTPATH%\bin"
+
+: run
+"%SCRIPTPATH%\bin\leanote-win64.exe" -importPath github.com/leanote/leanote
