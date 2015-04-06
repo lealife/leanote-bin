@@ -8,7 +8,9 @@ This repository is compiled leanote. The diferences between [leanote](https://gi
 
 ## Current version
 
-* leanote-v1.0-beta.4
+leanote-v1.0-beta.4
+
+Build with:
 
 * revel-0.11
 * mgo(support for mognodb-3.0)
@@ -26,5 +28,5 @@ Download this repository, and:
 1. Unzip the master.zip to another directory.
 2. Copy the older `/conf/app.conf`, `/files`, `/public/upload`, `/mongodb_backup` to current directory accordingly.
 3. Restart `/bin/run.sh` or `run.bat`
-4. Login leanote with ** admin ** user and go to 'admin/index' to upgrade to leanote-1.0-beta.4:
+4. Login leanote with **admin** user and go to 'admin/index' to upgrade to leanote-1.0-beta.4:
 ![](http://leanote.com/file/outputImage?fileId=551aeb9238f41114e8001683)
