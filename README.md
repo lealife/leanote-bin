@@ -4,6 +4,8 @@ Please download leanote binary file from [http://leanote.org/#download](http://l
 
 **警告**, 该仓库已过时, 请至 [http://leanote.org/#download](http://leanote.org/#download) 下载最新二进制版, 包含linux, mac, windows 三平台, 2种位共6种二进制文件.
 
+该仓库即将删除!
+
 ---------------------
 
 # Leanote Binary 
